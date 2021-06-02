@@ -34,7 +34,7 @@ namespace ProductWebApi.Controllers
                 existingProduct.Name = product.Name;
                 existingProduct.Description = product.Description;
                 existingProduct.Category = product.Category;
-                existingProduct.Amount = product.Amount;
+                existingProduct.Price = product.Price;
             }
             else {
                 product.Id = products.Count + 1;
